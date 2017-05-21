@@ -54,12 +54,8 @@ getmaxyx(stdscr, max_y, max_x); // gets the max x and y values for the 'centiped
 			fig_direction = fig_direction + 1, fig_direction <= max_x - 1;
 		break;
 		
-		 case KEY_UP:
-		if (fig_direction == next_x)
-		{ 
-			score = score++;
-		}
-		break;
+		 
+		
 		
 	}
  
